@@ -1,0 +1,36 @@
+# Configuration du shell et des variables d'environnement
+shell = { program = "/bin/zsh", args = ["-l"] }
+import = [
+    "~/.config/alacritty/themes/themes/one_dark.toml"
+]
+[env]
+TERM = "xterm-256color"
+
+# Activation du rechargement dynamique de la configuration
+#live_config_reload = true
+
+# Configuration de la fenêtre pour un look minimaliste et semi-transparent
+[window]
+decorations = "full"
+dynamic_padding = false
+opacity = 1
+padding = { x = 25, y = 20 }
+
+# Configuration de la police personnalisée avec styles spécifiques pour différents états du texte
+[font]
+size = 16.0
+[cursor]
+style = { shape = "Block", blinking = "On" }
+thickness = 0.25
+
+# Ajout de raccourcis clavier pour améliorer l'efficacité
+[keyboard]
+bindings = [
+  { key = 'N', mods = 'Control|Shift', action = 'CreateNewWindow' },
+  { key = 'C', mods = 'Control|Shift', action = 'Copy' },
+  { key = 'V', mods = 'Control|Shift', action = 'Paste' },
+  { key = '+', mods = 'Control', action = 'IncreaseFontSize' },
+  { key = '-', mods = 'Control', action = 'DecreaseFontSize' },
+  { key = '0', mods = 'Control', action = 'ResetFontSize' },
+  { key = 'q', mods = 'Command|Shift', action = 'Quit' }
+]
