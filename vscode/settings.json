@@ -1,1 +1,3 @@
-/home/cassie/.config/Code/User/settings.json
+{
+    "files.autoSave": "onFocusChange"
+}

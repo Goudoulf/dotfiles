@@ -1,1 +1,7 @@
-/home/cassie/.config/Code/User/keybindings.json
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+u ctrl+y",
+        "command": "workbench.action.terminal.newInActiveWorkspace"
+    }
+]
