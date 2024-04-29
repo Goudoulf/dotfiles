@@ -18,7 +18,7 @@ padding = { x = 25, y = 20 }
 
 # Configuration de la police personnalisée avec styles spécifiques pour différents états du texte
 [font]
-size = 16.0
+size = 15.0
 [cursor]
 style = { shape = "Block", blinking = "On" }
 thickness = 0.25
